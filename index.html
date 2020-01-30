@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		    <title>Login Form</title>
+		    <link rel='stylesheet prefetch' href='css/bootstrap.min.css'>
+			<link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+            <script src="https://use.fontawesome.com/51b511d519.js"></script>
+        </head>
+
+		<body>
+            <div class="container">
+                <h1> Login </h1>
+                    <form>
+                        <p>     
+                            <input class="form-control" type="email" placeholder="Email" required \>
+                        </p>       
+                        <p>    
+                            <input class="form-control" type="password" placeholder="Password" required minlength="8" \>
+                        </p>
+                        <p>
+                            <button class="btn btn-block btn-primary" type="submit" \>Sign in</button>
+                        </p>
+                        <label>
+                            <input type="checkbox" name="personality"\>Remember me
+                        </label>
+                        <span>
+                            <a href="#" id="first">Forgot Password</a>
+                        </span>       			    
+
+                        <div class="row">
+                            <hr>
+                            <div class="col-xs-6">
+                                <button class="btn btn-block" id="upper">
+                                    <i class="fa fa-github" aria-hidden="true" id="second"></i>&nbsp;&nbsp;
+                                    <a href="https://www.github.com" target="_blank" id="one">Log in with Github</a>
+                                </button>
+                            </div>
+                            <div class="col-xs-6">	
+                                <button class="btn btn-block btn-primary" id="upper">
+                                    <i class="fa fa-facebook" aria-hidden="true" id="second"></i>&nbsp;&nbsp;  
+                                    <a href="https://www.facebook.com" target="_blank" id="two">Log in with Facebook</a>
+                                </button>
+                            </div>
+                            <p class="lower">Need an account?
+                                <a href="#" id="first">&nbsp;Sign up now!</a>
+                            </p>
+                        </div> 
+                    </form>
+            </div>
+        </body>
+    </html>
